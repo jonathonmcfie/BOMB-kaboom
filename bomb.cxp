@@ -27,7 +27,7 @@
      <v type="string" >hour</v>
     </v>
    </display>
-   <v>6.231889497001e+03</v>
+   <v>7.102909858779e+03</v>
   </p>
   <p key="time-step" type="double" >
    <validator label="double-validator" >
@@ -1119,15 +1119,15 @@
      </v>
     </validator>
    </p>
-   <p key="zoom" >1.800000000000e+00</p>
-   <p key="scroll-offset" >(1.654259718776e-01,6.086065573770e-01)</p>
+   <p key="zoom" >1.900000000000e+00</p>
+   <p key="scroll-offset" >(6.486286137880e-01,6.638257575758e-01)</p>
    <p key="id" type="string" >
     <validator label="string-validator" >
      <v type="string" >^\S(.{0,28})(?=\S?$)</v>
     </validator>
    </p>
    <part class="electronics/4511" id="IC1" >
-    <p key="pos" >(4.400000000000e+02,7.840000000000e+02)</p>
+    <p key="pos" >(9.440004444444e+02,7.840000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -1141,6 +1141,7 @@
     <pad class="electronics/terminal" pid="50" role="1,terminal" id="electronics_terminal24" >
      <p key="pos" >(-4.000000000000e+01,-5.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1153,6 +1154,7 @@
     <pad class="electronics/terminal" pid="51" role="2,terminal" id="electronics_terminal25" >
      <p key="pos" >(-4.000000000000e+01,-4.000000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1165,6 +1167,7 @@
     <pad class="electronics/terminal" pid="52" role="4,terminal" id="electronics_terminal26" >
      <p key="pos" >(-4.000000000000e+01,-2.400000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1177,6 +1180,7 @@
     <pad class="electronics/terminal" pid="53" role="8,terminal" id="electronics_terminal27" >
      <p key="pos" >(-4.000000000000e+01,-8.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1189,6 +1193,7 @@
     <pad class="electronics/terminal" pid="54" role="terminal,~RB" id="electronics_terminal28" >
      <p key="pos" >(-4.000000000000e+01,2.400000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1203,6 +1208,7 @@
     <pad class="electronics/terminal" pid="55" role="terminal,~LT" id="electronics_terminal29" >
      <p key="pos" >(-4.000000000000e+01,4.000000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1217,6 +1223,7 @@
     <pad class="electronics/terminal" pid="56" role="L,terminal" id="electronics_terminal30" >
      <p key="pos" >(-4.000000000000e+01,5.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1228,6 +1235,7 @@
     </pad>
     <pad class="electronics/terminal" pid="57" role="g,terminal" id="electronics_terminal31" >
      <p key="pos" >(4.000000000000e+01,4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1242,6 +1250,7 @@
     </pad>
     <pad class="electronics/terminal" pid="58" role="f,terminal" id="electronics_terminal32" >
      <p key="pos" >(4.000000000000e+01,2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1256,6 +1265,7 @@
     </pad>
     <pad class="electronics/terminal" pid="59" role="e,terminal" id="electronics_terminal8" >
      <p key="pos" >(4.000000000000e+01,8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1270,6 +1280,7 @@
     </pad>
     <pad class="electronics/terminal" pid="60" role="d,terminal" id="electronics_terminal7" >
      <p key="pos" >(4.000000000000e+01,-8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1284,6 +1295,7 @@
     </pad>
     <pad class="electronics/terminal" pid="61" role="c,terminal" id="electronics_terminal4" >
      <p key="pos" >(4.000000000000e+01,-2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1298,6 +1310,7 @@
     </pad>
     <pad class="electronics/terminal" pid="62" role="b,terminal" id="electronics_terminal3" >
      <p key="pos" >(4.000000000000e+01,-4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1312,6 +1325,7 @@
     </pad>
     <pad class="electronics/terminal" pid="63" role="a,terminal" id="electronics_terminal13" >
      <p key="pos" >(4.000000000000e+01,-5.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1326,7 +1340,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='LED1']/pad[@pid='44']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='60']" id="LINK1" >
-    <p key="pos" >(4.800000000000e+02,7.760000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,7.760000000000e+02)</p>
     <p key="path" >(0,0),(112,0)</p>
     <p key="path-length" >1.120000000000e+02</p>
     <p key="id" type="string" >
@@ -1364,7 +1378,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='49']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='63']" id="LINK2" >
-    <p key="pos" >(4.800000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(0,-24),(232,-24),(232,0),(200,0)</p>
     <p key="path-length" >3.120000000000e+02</p>
     <p key="id" type="string" >
@@ -1402,7 +1416,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='48']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='62']" id="LINK3" >
-    <p key="pos" >(4.800000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(8,0),(8,-32),(248,-32),(248,0),(200,0)</p>
     <p key="path-length" >3.600000000000e+02</p>
     <p key="id" type="string" >
@@ -1437,10 +1451,22 @@
       </v>
      </display>
     </p>
-    <p key="v" />
+    <p key="v" >
+     <display decimal-places="-1" unit="millivolts" never-autorange="false" modify-value-on-unit-change="true" >
+      <v type="string-array" >
+       <v type="string" >picovolts</v>
+       <v type="string" >nanovolts</v>
+       <v type="string" >microvolts</v>
+       <v type="string" >millivolts</v>
+       <v type="string" >volts</v>
+       <v type="string" >kilovolts</v>
+       <v type="string" >megavolts</v>
+      </v>
+     </display>
+    </p>
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='47']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='61']" id="LINK4" >
-    <p key="pos" >(4.800000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(16,0),(16,-40),(272,-40),(272,0),(200,0)</p>
     <p key="path-length" >4.240000000000e+02</p>
     <p key="id" type="string" >
@@ -1478,7 +1504,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='42']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='58']" id="LINK6" >
-    <p key="pos" >(4.800000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,8.080000000000e+02)</p>
     <p key="path" >(0,0),(32,0),(32,-64),(112,-64)</p>
     <p key="path-length" >1.760000000000e+02</p>
     <p key="id" type="string" >
@@ -1528,7 +1554,7 @@
     </p>
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='41']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='57']" id="LINK5" >
-    <p key="pos" >(4.800000000000e+02,8.240000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,8.240000000000e+02)</p>
     <p key="path" >(0,0),(24,0),(24,-96),(112,-96)</p>
     <p key="path-length" >2.080000000000e+02</p>
     <p key="id" type="string" >
@@ -1566,7 +1592,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='43']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='59']" id="LINK7" >
-    <p key="pos" >(4.800000000000e+02,7.920000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,7.920000000000e+02)</p>
     <p key="path" >(0,0),(40,0),(40,-32),(112,-32)</p>
     <p key="path-length" >1.440000000000e+02</p>
     <p key="id" type="string" >
@@ -1604,7 +1630,7 @@
     <p key="v" />
    </link>
    <part class="electronics/voltrail" id="V1" >
-    <p key="pos" >(4.960000000000e+02,8.400000000000e+02)</p>
+    <p key="pos" >(1.000000444444e+03,8.400000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -1613,6 +1639,7 @@
     <p key="voltage" >-3.000000000000e+00</p>
     <pad class="electronics/terminal" pid="67" role="t1,terminal" id="electronics_terminal14" >
      <p key="pos" >(2.400000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1626,7 +1653,7 @@
     </pad>
    </part>
    <part class="electronics/latching-logic-input" id="LogicInput1" >
-    <p key="pos" >(3.760000000000e+02,8.240000000000e+02)</p>
+    <p key="pos" >(8.800004444444e+02,8.240000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -1635,6 +1662,7 @@
     <p key="state" >true</p>
     <pad class="electronics/terminal" pid="74" role="terminal" id="electronics_terminal11" >
      <p key="pos" >(2.400000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -1654,7 +1682,7 @@
     </control>
    </part>
    <link end-pad="../part[@id='LogicInput1']/pad[@pid='74']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='55']" id="LINK9" >
-    <p key="pos" >(4.000000000000e+02,8.240000000000e+02)</p>
+    <p key="pos" >(9.040004444444e+02,8.240000000000e+02)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -1665,18 +1693,22 @@
     <p key="v" />
    </link>
    <part class="electronics/4017" id="IC2" >
-    <p key="pos" >(2.400000000000e+02,9.200000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,9.200000000000e+02)</p>
     <p key="orientation" >-1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
      </validator>
     </p>
+    <p key="explosion-type" >3</p>
+    <p key="explosion-value" >1.081718709453e+00</p>
+    <p key="explosion-limit" >1.000000000000e+00</p>
     <p key="body-height" >196</p>
     <p key="body-width" >36</p>
     <pad class="electronics/terminal" pid="75" role=">,terminal" id="electronics_terminal19" >
      <p key="pos" >(-4.000000000000e+01,-8.800000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1689,6 +1721,7 @@
     <pad class="electronics/terminal" pid="76" role="terminal,~EN" id="electronics_terminal33" >
      <p key="pos" >(-4.000000000000e+01,7.200000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1703,6 +1736,7 @@
     <pad class="electronics/terminal" pid="77" role="R,terminal" id="electronics_terminal15" >
      <p key="pos" >(-4.000000000000e+01,8.800000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1714,6 +1748,7 @@
     </pad>
     <pad class="electronics/terminal" pid="78" role="C,terminal" id="electronics_terminal39" >
      <p key="pos" >(4.000000000000e+01,8.800000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1726,6 +1761,7 @@
     </pad>
     <pad class="electronics/terminal" pid="79" role="9,terminal" id="electronics_terminal35" >
      <p key="pos" >(4.000000000000e+01,5.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1737,6 +1773,7 @@
     </pad>
     <pad class="electronics/terminal" pid="80" role="8,terminal" id="electronics_terminal17" >
      <p key="pos" >(4.000000000000e+01,4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1748,6 +1785,7 @@
     </pad>
     <pad class="electronics/terminal" pid="81" role="7,terminal" id="electronics_terminal38" >
      <p key="pos" >(4.000000000000e+01,2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1759,6 +1797,7 @@
     </pad>
     <pad class="electronics/terminal" pid="82" role="6,terminal" id="electronics_terminal34" >
      <p key="pos" >(4.000000000000e+01,8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1770,6 +1809,7 @@
     </pad>
     <pad class="electronics/terminal" pid="83" role="5,terminal" id="electronics_terminal36" >
      <p key="pos" >(4.000000000000e+01,-8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1781,6 +1821,7 @@
     </pad>
     <pad class="electronics/terminal" pid="84" role="4,terminal" id="electronics_terminal20" >
      <p key="pos" >(4.000000000000e+01,-2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1792,6 +1833,7 @@
     </pad>
     <pad class="electronics/terminal" pid="85" role="3,terminal" id="electronics_terminal16" >
      <p key="pos" >(4.000000000000e+01,-4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1803,6 +1845,7 @@
     </pad>
     <pad class="electronics/terminal" pid="86" role="2,terminal" id="electronics_terminal18" >
      <p key="pos" >(4.000000000000e+01,-5.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1814,6 +1857,7 @@
     </pad>
     <pad class="electronics/terminal" pid="87" role="1,terminal" id="electronics_terminal40" >
      <p key="pos" >(4.000000000000e+01,-7.200000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1825,6 +1869,7 @@
     </pad>
     <pad class="electronics/terminal" pid="88" role="0,terminal" id="electronics_terminal42" >
      <p key="pos" >(4.000000000000e+01,-8.800000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1837,7 +1882,7 @@
     </pad>
    </part>
    <link end-pad="pad[@pid='112']" class="electronics/link" start-pad="pad[@pid='111']" id="LINK11" >
-    <p key="pos" >(3.600000000000e+02,5.280000000000e+02)</p>
+    <p key="pos" >(8.640004444444e+02,5.280000000000e+02)</p>
     <p key="path" >(0,0),(8,0),(8,8)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -1849,6 +1894,7 @@
     <p key="v" />
     <pad class="electronics/terminal" pid="111" role="pad" id="electronics_terminal37" >
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -1858,6 +1904,7 @@
     <pad class="electronics/terminal" pid="112" role="pad" id="electronics_terminal41" >
      <p key="pos" >(8.000000000000e+00,8.000000000000e+00)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -1866,7 +1913,7 @@
     </pad>
    </link>
    <link end-pad="../junction[@id='JUNCTION6']/pad[@pid='149']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='53']" id="LINK10" >
-    <p key="pos" >(4.000000000000e+02,7.760000000000e+02)</p>
+    <p key="pos" >(9.040004444444e+02,7.760000000000e+02)</p>
     <p key="path" >(0,0),(-216,0)</p>
     <p key="path-length" >2.160000000000e+02</p>
     <p key="id" type="string" >
@@ -1878,7 +1925,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION16']/pad[@pid='199']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='54']" id="LINK12" >
-    <p key="pos" >(4.000000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(9.040004444444e+02,8.080000000000e+02)</p>
     <p key="path" >(0,0),(-56,0)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -1890,7 +1937,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION11']/pad[@pid='164']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='52']" id="LINK13" >
-    <p key="pos" >(4.000000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(9.040004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(-152,0)</p>
     <p key="path-length" >1.520000000000e+02</p>
     <p key="id" type="string" >
@@ -1902,7 +1949,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION14']/pad[@pid='175']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='51']" id="LINK14" >
-    <p key="pos" >(4.000000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(9.040004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(-120,0)</p>
     <p key="path-length" >1.200000000000e+02</p>
     <p key="id" type="string" >
@@ -1914,7 +1961,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D2" >
-    <p key="pos" >(1.680000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(6.720004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -1941,6 +1988,7 @@
     <pad class="electronics/terminal" pid="121" role="anode,terminal" id="electronics_terminal48" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1952,6 +2000,7 @@
     <pad class="electronics/terminal" pid="122" role="cathode,terminal" id="electronics_terminal49" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -1962,7 +2011,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC2']/pad[@pid='87']" class="electronics/link" start-pad="../part[@id='D2']/pad[@pid='121']" id="LINK16" >
-    <p key="pos" >(1.680000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(6.720004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(0,16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -1999,7 +2048,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION1']/pad[@pid='123']" class="electronics/link" start-pad="../part[@id='D2']/pad[@pid='122']" id="LINK17" >
-    <p key="pos" >(1.680000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(6.720004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-24)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -2036,7 +2085,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION1" >
-    <p key="pos" >(1.680000000000e+02,7.760000000000e+02)</p>
+    <p key="pos" >(6.720004444444e+02,7.760000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2044,6 +2093,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="123" role="pad" id="electronics_terminal50" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -2054,7 +2104,7 @@
     </pad>
    </junction>
    <link end-pad="pad[@pid='124']" class="electronics/link" start-pad="../junction[@id='JUNCTION1']/pad[@pid='123']" id="LINK18" >
-    <p key="pos" >(1.680000000000e+02,7.760000000000e+02)</p>
+    <p key="pos" >(6.720004444444e+02,7.760000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2092,6 +2142,7 @@
     <pad class="electronics/terminal" pid="124" role="pad" id="electronics_terminal9" >
      <p key="pos" >(-1.600000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -2100,7 +2151,7 @@
     </pad>
    </link>
    <part class="electronics/diode" id="D3" >
-    <p key="pos" >(1.760000000000e+02,8.160000000000e+02)</p>
+    <p key="pos" >(6.800004444444e+02,8.160000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2127,6 +2178,7 @@
     <pad class="electronics/terminal" pid="125" role="anode,terminal" id="electronics_terminal51" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2138,6 +2190,7 @@
     <pad class="electronics/terminal" pid="126" role="cathode,terminal" id="electronics_terminal52" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2148,7 +2201,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='D3']/pad[@pid='126']" class="electronics/link" start-pad="../junction[@id='JUNCTION2']/pad[@pid='137']" id="LINK20" >
-    <p key="pos" >(1.760000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(6.800004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(0,56)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2185,7 +2238,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D4" >
-    <p key="pos" >(2.000000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(7.040004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2223,6 +2276,7 @@
     <pad class="electronics/terminal" pid="130" role="cathode,terminal" id="electronics_terminal55" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2233,7 +2287,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='D4']/pad[@pid='130']" class="electronics/link" start-pad="../junction[@id='JUNCTION3']/pad[@pid='131']" id="LINK23" >
-    <p key="pos" >(2.000000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.040004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(0,40)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -2270,7 +2324,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION3" >
-    <p key="pos" >(2.000000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.040004444444e+02,7.600000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2278,6 +2332,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="131" role="pad" id="electronics_terminal56" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -2288,7 +2343,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION3']/pad[@pid='131']" class="electronics/link" start-pad="pad[@pid='132']" id="LINK24" >
-    <p key="pos" >(1.520000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(6.560004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(48,0)</p>
     <p key="path-length" >4.800000000000e+01</p>
     <p key="id" type="string" >
@@ -2325,6 +2380,7 @@
     <p key="v" />
     <pad class="electronics/terminal" pid="132" role="pad" id="electronics_terminal43" >
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -2333,7 +2389,7 @@
     </pad>
    </link>
    <part class="electronics/diode" id="D5" >
-    <p key="pos" >(2.080000000000e+02,8.160000000000e+02)</p>
+    <p key="pos" >(7.120004444444e+02,8.160000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2360,6 +2416,7 @@
     <pad class="electronics/terminal" pid="133" role="anode,terminal" id="electronics_terminal57" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2371,6 +2428,7 @@
     <pad class="electronics/terminal" pid="134" role="cathode,terminal" id="electronics_terminal58" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2381,7 +2439,7 @@
     </pad>
    </part>
    <link end-pad="../junction[@id='JUNCTION15']/pad[@pid='176']" class="electronics/link" start-pad="../part[@id='IC1']/pad[@pid='50']" id="LINK19" >
-    <p key="pos" >(4.000000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(9.040004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(-104,0)</p>
     <p key="path-length" >1.040000000000e+02</p>
     <p key="id" type="string" >
@@ -2393,7 +2451,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION2" >
-    <p key="pos" >(1.760000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(6.800004444444e+02,7.280000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2401,6 +2459,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="137" role="pad" id="electronics_terminal59" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -2411,7 +2470,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION2']/pad[@pid='137']" class="electronics/link" start-pad="pad[@pid='138']" id="LINK15" >
-    <p key="pos" >(1.520000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(6.560004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(24,0)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -2448,6 +2507,7 @@
     <p key="v" />
     <pad class="electronics/terminal" pid="138" role="pad" id="electronics_terminal53" >
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -2456,7 +2516,7 @@
     </pad>
    </link>
    <link end-pad="../part[@id='D4']/pad[@pid='129']" class="electronics/link" start-pad="../part[@id='D5']/pad[@pid='133']" id="LINK25" >
-    <p key="pos" >(2.080000000000e+02,8.480000000000e+02)</p>
+    <p key="pos" >(7.120004444444e+02,8.480000000000e+02)</p>
     <p key="path" >(0,0),(0,16),(-8,16)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -2493,7 +2553,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D7" >
-    <p key="pos" >(1.920000000000e+02,8.160000000000e+02)</p>
+    <p key="pos" >(6.960004444444e+02,8.160000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2520,6 +2580,7 @@
     <pad class="electronics/terminal" pid="141" role="anode,terminal" id="electronics_terminal62" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2531,6 +2592,7 @@
     <pad class="electronics/terminal" pid="142" role="cathode,terminal" id="electronics_terminal63" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2541,7 +2603,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='D4']/pad[@pid='129']" class="electronics/link" start-pad="../part[@id='D7']/pad[@pid='141']" id="LINK21" >
-    <p key="pos" >(1.920000000000e+02,8.480000000000e+02)</p>
+    <p key="pos" >(6.960004444444e+02,8.480000000000e+02)</p>
     <p key="path" >(0,0),(0,16),(8,16)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -2578,7 +2640,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D8" >
-    <p key="pos" >(1.840000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(6.880004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2605,6 +2667,7 @@
     <pad class="electronics/terminal" pid="144" role="anode,terminal" id="electronics_terminal64" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2616,6 +2679,7 @@
     <pad class="electronics/terminal" pid="145" role="cathode,terminal" id="electronics_terminal44" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -2626,7 +2690,7 @@
     </pad>
    </part>
    <link end-pad="../junction[@id='JUNCTION4']/pad[@pid='146']" class="electronics/link" start-pad="../part[@id='D5']/pad[@pid='134']" id="LINK27" >
-    <p key="pos" >(2.080000000000e+02,7.840000000000e+02)</p>
+    <p key="pos" >(7.120004444444e+02,7.840000000000e+02)</p>
     <p key="path" >(0,0),(0,-40)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -2663,7 +2727,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION4" >
-    <p key="pos" >(2.080000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.120004444444e+02,7.440000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2671,6 +2735,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="146" role="pad" id="electronics_terminal65" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -2681,7 +2746,7 @@
     </pad>
    </junction>
    <link end-pad="pad[@pid='147']" class="electronics/link" start-pad="../junction[@id='JUNCTION4']/pad[@pid='146']" id="LINK28" >
-    <p key="pos" >(2.080000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.120004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(-56,0)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2719,6 +2784,7 @@
     <pad class="electronics/terminal" pid="147" role="pad" id="electronics_terminal45" >
      <p key="pos" >(-5.600000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -2727,7 +2793,7 @@
     </pad>
    </link>
    <link end-pad="../junction[@id='JUNCTION5']/pad[@pid='148']" class="electronics/link" start-pad="../part[@id='D7']/pad[@pid='142']" id="LINK29" >
-    <p key="pos" >(1.920000000000e+02,7.840000000000e+02)</p>
+    <p key="pos" >(6.960004444444e+02,7.840000000000e+02)</p>
     <p key="path" >(0,0),(0,-56)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2764,7 +2830,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION5" >
-    <p key="pos" >(1.920000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(6.960004444444e+02,7.280000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2772,6 +2838,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="148" role="pad" id="electronics_terminal66" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -2782,7 +2849,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION2']/pad[@pid='137']" class="electronics/link" start-pad="../junction[@id='JUNCTION5']/pad[@pid='148']" id="LINK22" >
-    <p key="pos" >(1.920000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(6.960004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2819,7 +2886,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='IC2']/pad[@pid='86']" class="electronics/link" start-pad="../part[@id='D8']/pad[@pid='144']" id="LINK26" >
-    <p key="pos" >(1.840000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(6.880004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(0,16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2856,7 +2923,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D3']/pad[@pid='125']" class="electronics/link" start-pad="../part[@id='D2']/pad[@pid='121']" id="LINK30" >
-    <p key="pos" >(1.680000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(6.720004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(8,0),(8,-16)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -2893,7 +2960,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION6']/pad[@pid='149']" class="electronics/link" start-pad="../part[@id='D8']/pad[@pid='145']" id="LINK31" >
-    <p key="pos" >(1.840000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(6.880004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-24)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -2930,7 +2997,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION6" >
-    <p key="pos" >(1.840000000000e+02,7.760000000000e+02)</p>
+    <p key="pos" >(6.880004444444e+02,7.760000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -2938,6 +3005,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="149" role="pad" id="electronics_terminal67" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -2948,7 +3016,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION1']/pad[@pid='123']" class="electronics/link" start-pad="../junction[@id='JUNCTION6']/pad[@pid='149']" id="LINK32" >
-    <p key="pos" >(1.840000000000e+02,7.760000000000e+02)</p>
+    <p key="pos" >(6.880004444444e+02,7.760000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -2985,7 +3053,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D4']/pad[@pid='129']" class="electronics/link" start-pad="../part[@id='IC2']/pad[@pid='85']" id="LINK33" >
-    <p key="pos" >(2.000000000000e+02,8.800000000000e+02)</p>
+    <p key="pos" >(7.040004444444e+02,8.800000000000e+02)</p>
     <p key="path" >(0,0),(0,-16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3022,7 +3090,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D9" >
-    <p key="pos" >(2.160000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(7.200004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3049,6 +3117,7 @@
     <pad class="electronics/terminal" pid="150" role="anode,terminal" id="electronics_terminal68" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3060,6 +3129,7 @@
     <pad class="electronics/terminal" pid="151" role="cathode,terminal" id="electronics_terminal69" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3070,7 +3140,7 @@
     </pad>
    </part>
    <part class="electronics/diode" id="D10" >
-    <p key="pos" >(2.240000000000e+02,8.160000000000e+02)</p>
+    <p key="pos" >(7.280004444444e+02,8.160000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3097,6 +3167,7 @@
     <pad class="electronics/terminal" pid="152" role="anode,terminal" id="electronics_terminal70" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3108,6 +3179,7 @@
     <pad class="electronics/terminal" pid="153" role="cathode,terminal" id="electronics_terminal71" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3118,7 +3190,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='D10']/pad[@pid='152']" class="electronics/link" start-pad="../part[@id='D9']/pad[@pid='150']" id="LINK34" >
-    <p key="pos" >(2.160000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(7.200004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(8,0),(8,-16)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -3155,7 +3227,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D9']/pad[@pid='150']" class="electronics/link" start-pad="../part[@id='IC2']/pad[@pid='84']" id="LINK35" >
-    <p key="pos" >(2.160000000000e+02,8.800000000000e+02)</p>
+    <p key="pos" >(7.200004444444e+02,8.800000000000e+02)</p>
     <p key="path" >(0,0),(0,-16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3192,7 +3264,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION7']/pad[@pid='154']" class="electronics/link" start-pad="../part[@id='D9']/pad[@pid='151']" id="LINK36" >
-    <p key="pos" >(2.160000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(7.200004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-40)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -3229,7 +3301,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION7" >
-    <p key="pos" >(2.160000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.200004444444e+02,7.600000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3237,6 +3309,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="154" role="pad" id="electronics_terminal72" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -3247,7 +3320,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION3']/pad[@pid='131']" class="electronics/link" start-pad="../junction[@id='JUNCTION7']/pad[@pid='154']" id="LINK37" >
-    <p key="pos" >(2.160000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.200004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3284,7 +3357,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION8']/pad[@pid='155']" class="electronics/link" start-pad="../part[@id='D10']/pad[@pid='153']" id="LINK38" >
-    <p key="pos" >(2.240000000000e+02,7.840000000000e+02)</p>
+    <p key="pos" >(7.280004444444e+02,7.840000000000e+02)</p>
     <p key="path" >(0,0),(0,-40)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -3321,7 +3394,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION8" >
-    <p key="pos" >(2.240000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.280004444444e+02,7.440000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3329,6 +3402,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="155" role="pad" id="electronics_terminal73" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -3339,7 +3413,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION4']/pad[@pid='146']" class="electronics/link" start-pad="../junction[@id='JUNCTION8']/pad[@pid='155']" id="LINK39" >
-    <p key="pos" >(2.240000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.280004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3376,7 +3450,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D11" >
-    <p key="pos" >(2.320000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(7.360004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3403,6 +3477,7 @@
     <pad class="electronics/terminal" pid="156" role="anode,terminal" id="electronics_terminal74" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3414,6 +3489,7 @@
     <pad class="electronics/terminal" pid="157" role="cathode,terminal" id="electronics_terminal75" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3424,7 +3500,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC2']/pad[@pid='83']" class="electronics/link" start-pad="../part[@id='D11']/pad[@pid='156']" id="LINK40" >
-    <p key="pos" >(2.320000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(7.360004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(0,16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3461,7 +3537,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION9']/pad[@pid='158']" class="electronics/link" start-pad="../part[@id='D11']/pad[@pid='157']" id="LINK41" >
-    <p key="pos" >(2.320000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(7.360004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-40)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -3498,7 +3574,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION9" >
-    <p key="pos" >(2.320000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.360004444444e+02,7.600000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3506,6 +3582,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="158" role="pad" id="electronics_terminal76" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -3516,7 +3593,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION7']/pad[@pid='154']" class="electronics/link" start-pad="../junction[@id='JUNCTION9']/pad[@pid='158']" id="LINK42" >
-    <p key="pos" >(2.320000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.360004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3553,7 +3630,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D12" >
-    <p key="pos" >(2.400000000000e+02,8.160000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,8.160000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3580,6 +3657,7 @@
     <pad class="electronics/terminal" pid="159" role="anode,terminal" id="electronics_terminal77" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3591,6 +3669,7 @@
     <pad class="electronics/terminal" pid="160" role="cathode,terminal" id="electronics_terminal78" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3601,7 +3680,7 @@
     </pad>
    </part>
    <link end-pad="../junction[@id='JUNCTION10']/pad[@pid='161']" class="electronics/link" start-pad="../part[@id='D12']/pad[@pid='160']" id="LINK43" >
-    <p key="pos" >(2.400000000000e+02,7.840000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,7.840000000000e+02)</p>
     <p key="path" >(0,0),(0,-56)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3638,7 +3717,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION10" >
-    <p key="pos" >(2.400000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,7.280000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3646,6 +3725,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="161" role="pad" id="electronics_terminal79" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -3656,7 +3736,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION5']/pad[@pid='148']" class="electronics/link" start-pad="../junction[@id='JUNCTION10']/pad[@pid='161']" id="LINK44" >
-    <p key="pos" >(2.400000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(-48,0)</p>
     <p key="path-length" >4.800000000000e+01</p>
     <p key="id" type="string" >
@@ -3693,7 +3773,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D11']/pad[@pid='156']" class="electronics/link" start-pad="../part[@id='D12']/pad[@pid='159']" id="LINK45" >
-    <p key="pos" >(2.400000000000e+02,8.480000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,8.480000000000e+02)</p>
     <p key="path" >(0,0),(0,16),(-8,16)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -3730,7 +3810,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D13" >
-    <p key="pos" >(2.480000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(7.520004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3757,6 +3837,7 @@
     <pad class="electronics/terminal" pid="162" role="anode,terminal" id="electronics_terminal80" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3768,6 +3849,7 @@
     <pad class="electronics/terminal" pid="163" role="cathode,terminal" id="electronics_terminal81" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3778,7 +3860,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC2']/pad[@pid='82']" class="electronics/link" start-pad="../part[@id='D13']/pad[@pid='162']" id="LINK46" >
-    <p key="pos" >(2.480000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(7.520004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(0,16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3815,7 +3897,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION11']/pad[@pid='164']" class="electronics/link" start-pad="../part[@id='D13']/pad[@pid='163']" id="LINK47" >
-    <p key="pos" >(2.480000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(7.520004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-40)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -3852,7 +3934,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION11" >
-    <p key="pos" >(2.480000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.520004444444e+02,7.600000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3860,6 +3942,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="164" role="pad" id="electronics_terminal82" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -3870,7 +3953,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION9']/pad[@pid='158']" class="electronics/link" start-pad="../junction[@id='JUNCTION11']/pad[@pid='164']" id="LINK48" >
-    <p key="pos" >(2.480000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(7.520004444444e+02,7.600000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3907,7 +3990,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D14" >
-    <p key="pos" >(2.640000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(7.680004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -3934,6 +4017,7 @@
     <pad class="electronics/terminal" pid="165" role="anode,terminal" id="electronics_terminal83" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3945,6 +4029,7 @@
     <pad class="electronics/terminal" pid="166" role="cathode,terminal" id="electronics_terminal84" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -3955,7 +4040,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC2']/pad[@pid='81']" class="electronics/link" start-pad="../part[@id='D14']/pad[@pid='165']" id="LINK49" >
-    <p key="pos" >(2.640000000000e+02,8.640000000000e+02)</p>
+    <p key="pos" >(7.680004444444e+02,8.640000000000e+02)</p>
     <p key="path" >(0,0),(0,16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -3992,7 +4077,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION12']/pad[@pid='167']" class="electronics/link" start-pad="../part[@id='D14']/pad[@pid='166']" id="LINK50" >
-    <p key="pos" >(2.640000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(7.680004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-56)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4029,7 +4114,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION12" >
-    <p key="pos" >(2.640000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.680004444444e+02,7.440000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4037,6 +4122,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="167" role="pad" id="electronics_terminal85" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -4047,7 +4133,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION8']/pad[@pid='155']" class="electronics/link" start-pad="../junction[@id='JUNCTION12']/pad[@pid='167']" id="LINK51" >
-    <p key="pos" >(2.640000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.680004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(-40,0)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -4084,7 +4170,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D15" >
-    <p key="pos" >(2.560000000000e+02,8.160000000000e+02)</p>
+    <p key="pos" >(7.600004444444e+02,8.160000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4111,6 +4197,7 @@
     <pad class="electronics/terminal" pid="168" role="anode,terminal" id="electronics_terminal86" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4122,6 +4209,7 @@
     <pad class="electronics/terminal" pid="169" role="cathode,terminal" id="electronics_terminal87" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4132,7 +4220,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='D15']/pad[@pid='169']" class="electronics/link" start-pad="../junction[@id='JUNCTION13']/pad[@pid='170']" id="LINK53" >
-    <p key="pos" >(2.560000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(7.600004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(0,56)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4169,7 +4257,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION13" >
-    <p key="pos" >(2.560000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(7.600004444444e+02,7.280000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4177,6 +4265,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="170" role="pad" id="electronics_terminal88" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -4187,7 +4276,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION13']/pad[@pid='170']" class="electronics/link" start-pad="../junction[@id='JUNCTION10']/pad[@pid='161']" id="LINK54" >
-    <p key="pos" >(2.400000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(7.440004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4224,7 +4313,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D6" >
-    <p key="pos" >(2.800000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(7.840004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4264,6 +4353,7 @@
     <pad class="electronics/terminal" pid="171" role="anode,terminal" id="electronics_terminal89" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4275,6 +4365,7 @@
     <pad class="electronics/terminal" pid="172" role="cathode,terminal" id="electronics_terminal90" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4285,7 +4376,7 @@
     </pad>
    </part>
    <part class="electronics/diode" id="D1" >
-    <p key="pos" >(2.960000000000e+02,8.320000000000e+02)</p>
+    <p key="pos" >(8.000004444444e+02,8.320000000000e+02)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4312,6 +4403,7 @@
     <pad class="electronics/terminal" pid="173" role="anode,terminal" id="electronics_terminal60" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4323,6 +4415,7 @@
     <pad class="electronics/terminal" pid="174" role="cathode,terminal" id="electronics_terminal61" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4333,7 +4426,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='D1']/pad[@pid='173']" class="electronics/link" start-pad="../part[@id='IC2']/pad[@pid='79']" id="LINK55" >
-    <p key="pos" >(2.960000000000e+02,8.800000000000e+02)</p>
+    <p key="pos" >(8.000004444444e+02,8.800000000000e+02)</p>
     <p key="path" >(0,0),(0,-16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4370,7 +4463,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D6']/pad[@pid='171']" class="electronics/link" start-pad="../part[@id='IC2']/pad[@pid='80']" id="LINK56" >
-    <p key="pos" >(2.800000000000e+02,8.800000000000e+02)</p>
+    <p key="pos" >(7.840004444444e+02,8.800000000000e+02)</p>
     <p key="path" >(0,0),(0,-16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4407,7 +4500,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D6']/pad[@pid='172']" class="electronics/link" start-pad="../junction[@id='JUNCTION14']/pad[@pid='175']" id="LINK57" >
-    <p key="pos" >(2.800000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.840004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(0,56)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4444,7 +4537,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION14" >
-    <p key="pos" >(2.800000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.840004444444e+02,7.440000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4452,6 +4545,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="175" role="pad" id="electronics_terminal46" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -4462,7 +4556,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION12']/pad[@pid='167']" class="electronics/link" start-pad="../junction[@id='JUNCTION14']/pad[@pid='175']" id="LINK58" >
-    <p key="pos" >(2.800000000000e+02,7.440000000000e+02)</p>
+    <p key="pos" >(7.840004444444e+02,7.440000000000e+02)</p>
     <p key="path" >(0,0),(-16,0)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -4499,7 +4593,7 @@
     <p key="v" />
    </link>
    <link end-pad="../junction[@id='JUNCTION15']/pad[@pid='176']" class="electronics/link" start-pad="../part[@id='D1']/pad[@pid='174']" id="LINK59" >
-    <p key="pos" >(2.960000000000e+02,8.000000000000e+02)</p>
+    <p key="pos" >(8.000004444444e+02,8.000000000000e+02)</p>
     <p key="path" >(0,0),(0,-72)</p>
     <p key="path-length" >7.200000000000e+01</p>
     <p key="id" type="string" >
@@ -4536,7 +4630,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION15" >
-    <p key="pos" >(2.960000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(8.000004444444e+02,7.280000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4544,6 +4638,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="176" role="pad" id="electronics_terminal47" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -4554,7 +4649,7 @@
     </pad>
    </junction>
    <link end-pad="../junction[@id='JUNCTION13']/pad[@pid='170']" class="electronics/link" start-pad="../junction[@id='JUNCTION15']/pad[@pid='176']" id="LINK60" >
-    <p key="pos" >(2.960000000000e+02,7.280000000000e+02)</p>
+    <p key="pos" >(8.000004444444e+02,7.280000000000e+02)</p>
     <p key="path" >(0,0),(-40,0)</p>
     <p key="path-length" >4.000000000000e+01</p>
     <p key="id" type="string" >
@@ -4591,7 +4686,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D14']/pad[@pid='165']" class="electronics/link" start-pad="../part[@id='D15']/pad[@pid='168']" id="LINK52" >
-    <p key="pos" >(2.560000000000e+02,8.480000000000e+02)</p>
+    <p key="pos" >(7.600004444444e+02,8.480000000000e+02)</p>
     <p key="path" >(0,0),(0,16),(8,16)</p>
     <p key="path-length" >2.400000000000e+01</p>
     <p key="id" type="string" >
@@ -4627,27 +4722,8 @@
     </p>
     <p key="v" />
    </link>
-   <part class="electronics/clock" id="Clock1" >
-    <p key="pos" >(1.520000000000e+02,1.056000000000e+03)</p>
-    <p key="orientation" >-1.570796326795e+00</p>
-    <p key="id" type="string" >
-     <validator label="string-validator" >
-      <v type="string" >[a-zA-Z0-9_\- /]+</v>
-     </validator>
-    </p>
-    <pad class="electronics/terminal" pid="178" role="terminal" id="electronics_terminal91" >
-     <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
-     <p key="pad-length" >2.600000000000e+01</p>
-     <p key="id" type="string" >
-      <validator label="string-validator" >
-       <v type="string" >[a-zA-Z0-9_\- /]+</v>
-      </validator>
-     </p>
-     <p key="start" >(6.000000000000e+00,0.000000000000e+00)</p>
-    </pad>
-   </part>
    <part class="electronics/spst" id="S1" >
-    <p key="pos" >(1.520000000000e+02,9.920000000000e+02)</p>
+    <p key="pos" >(6.560004444444e+02,1.008000000000e+03)</p>
     <p key="orientation" >-1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4671,6 +4747,7 @@
     <pad class="electronics/terminal" pid="184" role="t1,terminal" id="electronics_terminal92" >
      <p key="pos" >(-3.200000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4681,6 +4758,7 @@
     </pad>
     <pad class="electronics/terminal" pid="185" role="t2,terminal" id="electronics_terminal93" >
      <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4690,20 +4768,10 @@
      <p key="start" >(1.100000000000e+01,0.000000000000e+00)</p>
     </pad>
    </part>
-   <link end-pad="../part[@id='Clock1']/pad[@pid='178']" class="electronics/link" start-pad="../part[@id='S1']/pad[@pid='184']" id="LINK61" >
-    <p key="pos" >(1.520000000000e+02,1.024000000000e+03)</p>
-    <p key="path" >(0,0),(0,0)</p>
-    <p key="id" type="string" >
-     <validator label="string-validator" >
-      <v type="string" >[a-zA-Z0-9_\- /]+</v>
-     </validator>
-    </p>
-    <p key="i-path-dependent" />
-    <p key="v" />
-   </link>
-   <link end-pad="../part[@id='IC2']/pad[@pid='75']" class="electronics/link" start-pad="../part[@id='S1']/pad[@pid='185']" id="LINK62" >
-    <p key="pos" >(1.520000000000e+02,9.600000000000e+02)</p>
-    <p key="path" >(0,0),(0,0)</p>
+   <link end-pad="../part[@id='S1']/pad[@pid='185']" class="electronics/link" start-pad="../part[@id='IC2']/pad[@pid='75']" id="LINK62" >
+    <p key="pos" >(6.560004444444e+02,9.600000000000e+02)</p>
+    <p key="path" >(0,0),(0,16)</p>
+    <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -4713,7 +4781,7 @@
     <p key="v" />
    </link>
    <part class="electronics/push-button-logic-input" id="LogicInput2" >
-    <p key="pos" >(3.280000000000e+02,9.840000000000e+02)</p>
+    <p key="pos" >(8.320004444444e+02,9.840000000000e+02)</p>
     <p key="orientation" >-1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4723,6 +4791,7 @@
     <p key="state" />
     <pad class="electronics/terminal" pid="187" role="terminal" id="electronics_terminal94" >
      <p key="pos" >(2.400000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -4741,7 +4810,7 @@
     </control>
    </part>
    <link end-pad="../part[@id='IC2']/pad[@pid='77']" class="electronics/link" start-pad="../part[@id='LogicInput2']/pad[@pid='187']" id="LINK63" >
-    <p key="pos" >(3.280000000000e+02,9.600000000000e+02)</p>
+    <p key="pos" >(8.320004444444e+02,9.600000000000e+02)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4752,7 +4821,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D16" >
-    <p key="pos" >(3.119995555556e+02,1.024000000000e+03)</p>
+    <p key="pos" >(8.160000000000e+02,1.024000000000e+03)</p>
     <p key="orientation" >1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4779,6 +4848,7 @@
     <pad class="electronics/terminal" pid="192" role="anode,terminal" id="electronics_terminal97" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4790,6 +4860,7 @@
     <pad class="electronics/terminal" pid="193" role="cathode,terminal" id="electronics_terminal96" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4800,7 +4871,7 @@
     </pad>
    </part>
    <part class="electronics/push-button-logic-input" id="LogicInput3" >
-    <p key="pos" >(2.799995555556e+02,1.112000000000e+03)</p>
+    <p key="pos" >(7.840000000000e+02,1.112000000000e+03)</p>
     <p key="orientation" >-1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4810,6 +4881,7 @@
     <p key="state" />
     <pad class="electronics/terminal" pid="194" role="terminal" id="electronics_terminal98" >
      <p key="pos" >(2.400000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -4828,7 +4900,7 @@
     </control>
    </part>
    <part class="electronics/7404" id="IC3a" >
-    <p key="pos" >(3.440000000000e+02,8.720000000000e+02)</p>
+    <p key="pos" >(8.480004444444e+02,8.720000000000e+02)</p>
     <p key="orientation" >1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4838,6 +4910,7 @@
     <pad class="electronics/terminal" pid="197" role="t1,terminal" id="electronics_terminal99" >
      <p key="pos" >(-3.200000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4849,6 +4922,7 @@
     </pad>
     <pad class="electronics/terminal" pid="198" role="t2,terminal" id="electronics_terminal95" >
      <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4859,7 +4933,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC3a']/pad[@pid='198']" class="electronics/link" start-pad="../part[@id='D16']/pad[@pid='192']" id="LINK64" >
-    <p key="pos" >(3.439995555556e+02,1.024000000000e+03)</p>
+    <p key="pos" >(8.480000000000e+02,1.024000000000e+03)</p>
     <p key="path" >(0,0),(0,-120)</p>
     <p key="path-length" >1.200000000000e+02</p>
     <p key="id" type="string" >
@@ -4896,7 +4970,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='IC3a']/pad[@pid='197']" class="electronics/link" start-pad="../junction[@id='JUNCTION16']/pad[@pid='199']" id="LINK65" >
-    <p key="pos" >(3.440000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(8.480004444444e+02,8.080000000000e+02)</p>
     <p key="path" >(0,0),(0,32)</p>
     <p key="path-length" >3.200000000000e+01</p>
     <p key="id" type="string" >
@@ -4908,7 +4982,7 @@
     <p key="v" />
    </link>
    <junction class="electronics/junction" id="JUNCTION16" >
-    <p key="pos" >(3.440000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(8.480004444444e+02,8.080000000000e+02)</p>
     <p key="selectable" >false</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4916,6 +4990,7 @@
      </validator>
     </p>
     <pad class="electronics/terminal" pid="199" role="pad" id="electronics_terminal100" >
+     <p key="can-link" >true</p>
      <p key="link-orientation-range" >-3.141592653590e+00,3.141592653590e+00</p>
      <p key="max-num-links" >4</p>
      <p key="id" type="string" >
@@ -4927,7 +5002,7 @@
     </pad>
    </junction>
    <link end-pad="../part[@id='IC2']/pad[@pid='88']" class="electronics/link" start-pad="../junction[@id='JUNCTION16']/pad[@pid='199']" id="LINK66" >
-    <p key="pos" >(3.440000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(8.480004444444e+02,8.080000000000e+02)</p>
     <p key="path" >(0,0),(-192,0),(-192,72)</p>
     <p key="path-length" >2.640000000000e+02</p>
     <p key="id" type="string" >
@@ -4939,7 +5014,7 @@
     <p key="v" />
    </link>
    <part class="electronics/diode" id="D17" >
-    <p key="pos" >(2.800000000000e+02,1.056000000000e+03)</p>
+    <p key="pos" >(7.840004444444e+02,1.056000000000e+03)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -4966,6 +5041,7 @@
     <pad class="electronics/terminal" pid="200" role="anode,terminal" id="electronics_terminal101" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4977,6 +5053,7 @@
     <pad class="electronics/terminal" pid="201" role="cathode,terminal" id="electronics_terminal102" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >3.000000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -4987,7 +5064,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='LogicInput3']/pad[@pid='194']" class="electronics/link" start-pad="../part[@id='D17']/pad[@pid='200']" id="LINK67" >
-    <p key="pos" >(2.799995555556e+02,1.088000000000e+03)</p>
+    <p key="pos" >(7.840000000000e+02,1.088000000000e+03)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5023,7 +5100,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D16']/pad[@pid='193']" class="electronics/link" start-pad="../part[@id='D17']/pad[@pid='201']" id="LINK68" >
-    <p key="pos" >(2.799995555556e+02,1.024000000000e+03)</p>
+    <p key="pos" >(7.840000000000e+02,1.024000000000e+03)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5059,7 +5136,7 @@
     <p key="v" />
    </link>
    <part class="electronics/7404" id="IC3b" >
-    <p key="pos" >(2.800000000000e+02,9.600000000000e+02)</p>
+    <p key="pos" >(7.840004444444e+02,9.600000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -5068,6 +5145,7 @@
     <pad class="electronics/terminal" pid="202" role="t1,terminal" id="electronics_terminal103" >
      <p key="pos" >(-3.200000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5078,6 +5156,7 @@
     </pad>
     <pad class="electronics/terminal" pid="203" role="t2,terminal" id="electronics_terminal104" >
      <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5090,7 +5169,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC2']/pad[@pid='76']" class="electronics/link" start-pad="../part[@id='IC3b']/pad[@pid='203']" id="LINK69" >
-    <p key="pos" >(3.120000000000e+02,9.600000000000e+02)</p>
+    <p key="pos" >(8.160004444444e+02,9.600000000000e+02)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5101,7 +5180,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='D17']/pad[@pid='201']" class="electronics/link" start-pad="../part[@id='IC3b']/pad[@pid='202']" id="LINK8" >
-    <p key="pos" >(2.480000000000e+02,9.600000000000e+02)</p>
+    <p key="pos" >(7.520004444444e+02,9.600000000000e+02)</p>
     <p key="path" >(0,0),(0,64),(32,64)</p>
     <p key="path-length" >9.600000000000e+01</p>
     <p key="id" type="string" >
@@ -5113,7 +5192,7 @@
     <p key="v" />
    </link>
    <part class="electronics/seven-segment-display" id="LED2" >
-    <p key="pos" >(5.840000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(1.088000444444e+03,7.600000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -5127,6 +5206,7 @@
     <pad class="electronics/terminal" pid="204" role="g,terminal" id="electronics_terminal105" >
      <p key="pos" >(-4.800000000000e+01,-3.200000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5139,6 +5219,7 @@
     <pad class="electronics/terminal" pid="205" role="f,terminal" id="electronics_terminal106" >
      <p key="pos" >(-4.800000000000e+01,-1.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5164,6 +5245,7 @@
     <pad class="electronics/terminal" pid="206" role="e,terminal" id="electronics_terminal107" >
      <p key="pos" >(-4.800000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5176,6 +5258,7 @@
     <pad class="electronics/terminal" pid="207" role="d,terminal" id="electronics_terminal108" >
      <p key="pos" >(-4.800000000000e+01,1.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5201,6 +5284,7 @@
     <pad class="electronics/terminal" pid="208" role="terminal,v-" id="electronics_terminal109" >
      <p key="pos" >(-8.000000000000e+00,4.800000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5227,6 +5311,7 @@
     </pad>
     <pad class="electronics/terminal" pid="209" role="point,terminal" id="electronics_terminal110" >
      <p key="pos" >(4.000000000000e+01,1.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5251,6 +5336,7 @@
     </pad>
     <pad class="electronics/terminal" pid="210" role="c,terminal" id="electronics_terminal111" >
      <p key="pos" >(4.000000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5277,6 +5363,7 @@
     </pad>
     <pad class="electronics/terminal" pid="211" role="b,terminal" id="electronics_terminal112" >
      <p key="pos" >(4.000000000000e+01,-1.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5303,6 +5390,7 @@
     </pad>
     <pad class="electronics/terminal" pid="212" role="a,terminal" id="electronics_terminal113" >
      <p key="pos" >(4.000000000000e+01,-3.200000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5327,7 +5415,7 @@
     </pad>
    </part>
    <part class="electronics/spst" id="S2" >
-    <p key="pos" >(5.520000000000e+02,8.400000000000e+02)</p>
+    <p key="pos" >(1.056000444444e+03,8.400000000000e+02)</p>
     <p key="orientation" />
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5363,6 +5451,7 @@
     <pad class="electronics/terminal" pid="213" role="t1,terminal" id="electronics_terminal114" >
      <p key="pos" >(-3.200000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5376,6 +5465,7 @@
     </pad>
     <pad class="electronics/terminal" pid="214" role="t2,terminal" id="electronics_terminal115" >
      <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5389,7 +5479,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='V1']/pad[@pid='67']" class="electronics/link" start-pad="../part[@id='S2']/pad[@pid='213']" id="LINK70" >
-    <p key="pos" >(5.200000000000e+02,8.400000000000e+02)</p>
+    <p key="pos" >(1.024000444444e+03,8.400000000000e+02)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5426,7 +5516,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='S2']/pad[@pid='214']" class="electronics/link" start-pad="../part[@id='LED1']/pad[@pid='45']" id="LINK71" >
-    <p key="pos" >(6.320000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(1.136000444444e+03,8.080000000000e+02)</p>
     <p key="path" >(0,0),(0,32),(-48,32)</p>
     <p key="path-length" >8.000000000000e+01</p>
     <p key="id" type="string" >
@@ -5464,7 +5554,7 @@
     <p key="v" />
    </link>
    <part class="electronics/7408" id="IC4a" >
-    <p key="pos" >(3.760000000000e+02,9.920000000000e+02)</p>
+    <p key="pos" >(8.800004444444e+02,9.920000000000e+02)</p>
     <p key="orientation" >-1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5477,6 +5567,7 @@
     <pad class="electronics/terminal" pid="219" role="t1,terminal" id="electronics_terminal117" >
      <p key="pos" >(-3.200000000000e+01,-8.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5489,6 +5580,7 @@
     <pad class="electronics/terminal" pid="220" role="t2,terminal" id="electronics_terminal118" >
      <p key="pos" >(-3.200000000000e+01,8.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5499,19 +5591,18 @@
     </pad>
     <pad class="electronics/terminal" pid="221" role="t3,terminal" id="electronics_terminal116" >
      <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.600000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
       </validator>
      </p>
-     <p key="i-abs" />
-     <p key="v" />
      <p key="start" >(6.000000000000e+00,0.000000000000e+00)</p>
     </pad>
    </part>
    <link end-pad="../part[@id='IC4a']/pad[@pid='219']" class="electronics/link" start-pad="../part[@id='IC3a']/pad[@pid='197']" id="LINK75" >
-    <p key="pos" >(3.440000000000e+02,8.400000000000e+02)</p>
+    <p key="pos" >(8.480004444444e+02,8.400000000000e+02)</p>
     <p key="path" >(0,0),(16,0),(16,184),(24,184)</p>
     <p key="path-length" >2.080000000000e+02</p>
     <p key="id" type="string" >
@@ -5523,7 +5614,7 @@
     <p key="v" />
    </link>
    <part class="electronics/resistor" id="R1" >
-    <p key="pos" >(3.120000000000e+02,1.088000000000e+03)</p>
+    <p key="pos" >(8.160004444444e+02,1.088000000000e+03)</p>
     <p key="orientation" >1.570796326795e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5552,6 +5643,7 @@
     <pad class="electronics/terminal" pid="224" role="t1,terminal" id="electronics_terminal119" >
      <p key="pos" >(0.000000000000e+00,-3.200000000000e+01)</p>
      <p key="orientation" >-1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5563,6 +5655,7 @@
     <pad class="electronics/terminal" pid="225" role="t2,terminal" id="electronics_terminal120" >
      <p key="pos" >(0.000000000000e+00,3.200000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5573,7 +5666,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='LogicInput3']/pad[@pid='194']" class="electronics/link" start-pad="../part[@id='R1']/pad[@pid='225']" id="LINK73" >
-    <p key="pos" >(2.800000000000e+02,1.088000000000e+03)</p>
+    <p key="pos" >(7.840004444444e+02,1.088000000000e+03)</p>
     <p key="path" >(0,0),(0,0)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5584,7 +5677,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='IC4a']/pad[@pid='220']" class="electronics/link" start-pad="../part[@id='R1']/pad[@pid='224']" id="LINK72" >
-    <p key="pos" >(3.440000000000e+02,1.088000000000e+03)</p>
+    <p key="pos" >(8.480004444444e+02,1.088000000000e+03)</p>
     <p key="path" >(0,0),(40,0),(40,-64)</p>
     <p key="path-length" >1.040000000000e+02</p>
     <p key="id" type="string" >
@@ -5596,7 +5689,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='LED2']/pad[@pid='211']" class="electronics/link" start-pad="../part[@id='LED2']/pad[@pid='210']" id="LINK76" >
-    <p key="pos" >(6.240000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(1.128000444444e+03,7.600000000000e+02)</p>
     <p key="path" >(0,0),(0,-16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -5634,7 +5727,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='IC5']/pad[@pid='241']" class="electronics/link" start-pad="../part[@id='LED2']/pad[@pid='210']" id="LINK77" >
-    <p key="pos" >(6.240000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(1.128000444444e+03,7.600000000000e+02)</p>
     <p key="path" >(0,0),(16,0),(16,120),(-144,120)</p>
     <p key="path-length" >2.960000000000e+02</p>
     <p key="id" type="string" >
@@ -5669,10 +5762,22 @@
       </v>
      </display>
     </p>
-    <p key="v" />
+    <p key="v" >
+     <display decimal-places="-1" unit="millivolts" never-autorange="false" modify-value-on-unit-change="true" >
+      <v type="string-array" >
+       <v type="string" >picovolts</v>
+       <v type="string" >nanovolts</v>
+       <v type="string" >microvolts</v>
+       <v type="string" >millivolts</v>
+       <v type="string" >volts</v>
+       <v type="string" >kilovolts</v>
+       <v type="string" >megavolts</v>
+      </v>
+     </display>
+    </p>
    </link>
    <link end-pad="../part[@id='LED1']/pad[@pid='45']" class="electronics/link" start-pad="../part[@id='LED2']/pad[@pid='208']" id="LINK74" >
-    <p key="pos" >(5.760000000000e+02,8.080000000000e+02)</p>
+    <p key="pos" >(1.080000444444e+03,8.080000000000e+02)</p>
     <p key="path" >(0,0),(56,0)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -5710,7 +5815,7 @@
     <p key="v" />
    </link>
    <part class="electronics/4511" id="IC5" >
-    <p key="pos" >(4.400000000000e+02,9.200000000000e+02)</p>
+    <p key="pos" >(9.440004444444e+02,9.200000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -5724,6 +5829,7 @@
     <pad class="electronics/terminal" pid="229" role="1,terminal" id="electronics_terminal122" >
      <p key="pos" >(-4.000000000000e+01,-5.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5736,6 +5842,7 @@
     <pad class="electronics/terminal" pid="230" role="2,terminal" id="electronics_terminal123" >
      <p key="pos" >(-4.000000000000e+01,-4.000000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5748,6 +5855,7 @@
     <pad class="electronics/terminal" pid="231" role="4,terminal" id="electronics_terminal124" >
      <p key="pos" >(-4.000000000000e+01,-2.400000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5760,6 +5868,7 @@
     <pad class="electronics/terminal" pid="232" role="8,terminal" id="electronics_terminal125" >
      <p key="pos" >(-4.000000000000e+01,-8.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5772,6 +5881,7 @@
     <pad class="electronics/terminal" pid="233" role="terminal,~RB" id="electronics_terminal126" >
      <p key="pos" >(-4.000000000000e+01,2.400000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5785,6 +5895,7 @@
     <pad class="electronics/terminal" pid="234" role="terminal,~LT" id="electronics_terminal127" >
      <p key="pos" >(-4.000000000000e+01,4.000000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5799,6 +5910,7 @@
     <pad class="electronics/terminal" pid="235" role="L,terminal" id="electronics_terminal128" >
      <p key="pos" >(-4.000000000000e+01,5.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5810,6 +5922,7 @@
     </pad>
     <pad class="electronics/terminal" pid="236" role="g,terminal" id="electronics_terminal129" >
      <p key="pos" >(4.000000000000e+01,4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5822,6 +5935,7 @@
     </pad>
     <pad class="electronics/terminal" pid="237" role="f,terminal" id="electronics_terminal130" >
      <p key="pos" >(4.000000000000e+01,2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5834,6 +5948,7 @@
     </pad>
     <pad class="electronics/terminal" pid="238" role="e,terminal" id="electronics_terminal131" >
      <p key="pos" >(4.000000000000e+01,8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5846,6 +5961,7 @@
     </pad>
     <pad class="electronics/terminal" pid="239" role="d,terminal" id="electronics_terminal132" >
      <p key="pos" >(4.000000000000e+01,-8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5858,6 +5974,7 @@
     </pad>
     <pad class="electronics/terminal" pid="240" role="c,terminal" id="electronics_terminal133" >
      <p key="pos" >(4.000000000000e+01,-2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5872,6 +5989,7 @@
     </pad>
     <pad class="electronics/terminal" pid="241" role="b,terminal" id="electronics_terminal134" >
      <p key="pos" >(4.000000000000e+01,-4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5886,6 +6004,7 @@
     </pad>
     <pad class="electronics/terminal" pid="242" role="a,terminal" id="electronics_terminal121" >
      <p key="pos" >(4.000000000000e+01,-5.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -5898,7 +6017,7 @@
     </pad>
    </part>
    <link end-pad="../part[@id='IC5']/pad[@pid='241']" class="electronics/link" start-pad="../part[@id='IC5']/pad[@pid='240']" id="LINK78" >
-    <p key="pos" >(4.800000000000e+02,8.960000000000e+02)</p>
+    <p key="pos" >(9.840004444444e+02,8.960000000000e+02)</p>
     <p key="path" >(0,0),(0,-16)</p>
     <p key="path-length" >1.600000000000e+01</p>
     <p key="id" type="string" >
@@ -5936,7 +6055,7 @@
     <p key="v" />
    </link>
    <link end-pad="../part[@id='IC5']/pad[@pid='229']" class="electronics/link" start-pad="../part[@id='IC4a']/pad[@pid='221']" id="LINK79" >
-    <p key="pos" >(3.760000000000e+02,9.600000000000e+02)</p>
+    <p key="pos" >(8.800004444444e+02,9.600000000000e+02)</p>
     <p key="path" >(0,0),(0,-96),(24,-96)</p>
     <p key="path-length" >1.200000000000e+02</p>
     <p key="id" type="string" >
@@ -5948,7 +6067,7 @@
     <p key="v" />
    </link>
    <part class="electronics/latching-logic-input" id="LogicInput4" >
-    <p key="pos" >(4.240000000000e+02,1.000000000000e+03)</p>
+    <p key="pos" >(9.280004444444e+02,1.000000000000e+03)</p>
     <p key="orientation" >-3.141592653590e+00</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
@@ -5956,8 +6075,9 @@
      </validator>
     </p>
     <p key="state" >true</p>
-    <pad class="electronics/terminal" pid="243" role="terminal" id="electronics_terminal135" >
+    <pad class="electronics/terminal" pid="243" role="terminal" id="electronics_terminal91" >
      <p key="pos" >(2.400000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
        <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -5976,8 +6096,8 @@
      <p key="placement" >none</p>
     </control>
    </part>
-   <link end-pad="../part[@id='IC5']/pad[@pid='234']" class="electronics/link" start-pad="../part[@id='LogicInput4']/pad[@pid='243']" id="LINK80" >
-    <p key="pos" >(4.000000000000e+02,1.000000000000e+03)</p>
+   <link end-pad="../part[@id='IC5']/pad[@pid='234']" class="electronics/link" start-pad="../part[@id='LogicInput4']/pad[@pid='243']" id="LINK61" >
+    <p key="pos" >(9.040004444444e+02,1.000000000000e+03)</p>
     <p key="path" >(0,0),(-8,0),(-8,-40),(0,-40)</p>
     <p key="path-length" >5.600000000000e+01</p>
     <p key="id" type="string" >
@@ -5989,7 +6109,7 @@
     <p key="v" />
    </link>
    <part class="electronics/seven-segment-display" id="LED1" >
-    <p key="pos" >(6.400000000000e+02,7.600000000000e+02)</p>
+    <p key="pos" >(1.144000444444e+03,7.600000000000e+02)</p>
     <p key="id" type="string" >
      <validator label="string-validator" >
       <v type="string" >[a-zA-Z0-9_\- /]+</v>
@@ -6003,6 +6123,7 @@
     <pad class="electronics/terminal" pid="41" role="g,terminal" id="electronics_terminal1" >
      <p key="pos" >(-4.800000000000e+01,-3.200000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6017,6 +6138,7 @@
     <pad class="electronics/terminal" pid="42" role="f,terminal" id="electronics_terminal2" >
      <p key="pos" >(-4.800000000000e+01,-1.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6044,6 +6166,7 @@
     <pad class="electronics/terminal" pid="43" role="e,terminal" id="electronics_terminal12" >
      <p key="pos" >(-4.800000000000e+01,0.000000000000e+00)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6058,6 +6181,7 @@
     <pad class="electronics/terminal" pid="44" role="d,terminal" id="electronics_terminal22" >
      <p key="pos" >(-4.800000000000e+01,1.600000000000e+01)</p>
      <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.100000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6085,6 +6209,7 @@
     <pad class="electronics/terminal" pid="45" role="terminal,v-" id="electronics_terminal6" >
      <p key="pos" >(-8.000000000000e+00,4.800000000000e+01)</p>
      <p key="orientation" >1.570796326795e+00</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6111,6 +6236,7 @@
     </pad>
     <pad class="electronics/terminal" pid="46" role="point,terminal" id="electronics_terminal10" >
      <p key="pos" >(4.000000000000e+01,1.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6135,6 +6261,7 @@
     </pad>
     <pad class="electronics/terminal" pid="47" role="c,terminal" id="electronics_terminal5" >
      <p key="pos" >(4.000000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6161,6 +6288,7 @@
     </pad>
     <pad class="electronics/terminal" pid="48" role="b,terminal" id="electronics_terminal21" >
      <p key="pos" >(4.000000000000e+01,-1.600000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6174,6 +6302,7 @@
     </pad>
     <pad class="electronics/terminal" pid="49" role="a,terminal" id="electronics_terminal23" >
      <p key="pos" >(4.000000000000e+01,-3.200000000000e+01)</p>
+     <p key="can-link" >true</p>
      <p key="pad-length" >2.200000000000e+01</p>
      <p key="id" type="string" >
       <validator label="string-validator" >
@@ -6199,6 +6328,319 @@
      <p key="start" >(1.800000000000e+01,-3.200000000000e+01)</p>
     </pad>
    </part>
+   <part class="electronics/clock" id="Clock1" >
+    <p key="pos" >(6.160000000000e+02,1.128000000000e+03)</p>
+    <p key="orientation" >-3.141592653590e+00</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <pad class="electronics/terminal" pid="251" role="terminal" id="electronics_terminal135" >
+     <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.600000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="start" >(6.000000000000e+00,0.000000000000e+00)</p>
+    </pad>
+   </part>
+   <part class="electronics/4017" id="IC6" >
+    <p key="pos" >(6.720000000000e+02,1.088000000000e+03)</p>
+    <p key="orientation" >-1.570796326795e+00</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <p key="explosion-type" >3</p>
+    <p key="explosion-value" >1.081718709453e+00</p>
+    <p key="explosion-limit" >1.000000000000e+00</p>
+    <p key="body-height" >196</p>
+    <p key="body-width" >36</p>
+    <pad class="electronics/terminal" pid="252" role=">,terminal" id="electronics_terminal136" >
+     <p key="pos" >(-4.000000000000e+01,-8.800000000000e+01)</p>
+     <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Clock</p>
+     <p key="start" >(-1.800000000000e+01,-8.800000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="253" role="terminal,~EN" id="electronics_terminal137" >
+     <p key="pos" >(-4.000000000000e+01,7.200000000000e+01)</p>
+     <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Enable</p>
+     <p key="negation-symbol" >true</p>
+     <p key="start" >(-1.800000000000e+01,7.200000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="254" role="R,terminal" id="electronics_terminal138" >
+     <p key="pos" >(-4.000000000000e+01,8.800000000000e+01)</p>
+     <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Reset</p>
+     <p key="start" >(-1.800000000000e+01,8.800000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="255" role="C,terminal" id="electronics_terminal139" >
+     <p key="pos" >(4.000000000000e+01,8.800000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="v" >5.000000000000e+00</p>
+     <p key="label" >Carry</p>
+     <p key="start" >(1.800000000000e+01,8.800000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="256" role="9,terminal" id="electronics_terminal140" >
+     <p key="pos" >(4.000000000000e+01,5.600000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 9</p>
+     <p key="start" >(1.800000000000e+01,5.600000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="257" role="8,terminal" id="electronics_terminal141" >
+     <p key="pos" >(4.000000000000e+01,4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 8</p>
+     <p key="start" >(1.800000000000e+01,4.000000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="258" role="7,terminal" id="electronics_terminal142" >
+     <p key="pos" >(4.000000000000e+01,2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 7</p>
+     <p key="start" >(1.800000000000e+01,2.400000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="259" role="6,terminal" id="electronics_terminal143" >
+     <p key="pos" >(4.000000000000e+01,8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 6</p>
+     <p key="start" >(1.800000000000e+01,8.000000000000e+00)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="260" role="5,terminal" id="electronics_terminal144" >
+     <p key="pos" >(4.000000000000e+01,-8.000000000000e+00)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 5</p>
+     <p key="start" >(1.800000000000e+01,-8.000000000000e+00)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="261" role="4,terminal" id="electronics_terminal145" >
+     <p key="pos" >(4.000000000000e+01,-2.400000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 4</p>
+     <p key="start" >(1.800000000000e+01,-2.400000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="262" role="3,terminal" id="electronics_terminal146" >
+     <p key="pos" >(4.000000000000e+01,-4.000000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 3</p>
+     <p key="start" >(1.800000000000e+01,-4.000000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="263" role="2,terminal" id="electronics_terminal147" >
+     <p key="pos" >(4.000000000000e+01,-5.600000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 2</p>
+     <p key="start" >(1.800000000000e+01,-5.600000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="264" role="1,terminal" id="electronics_terminal148" >
+     <p key="pos" >(4.000000000000e+01,-7.200000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="v" >5.000000000000e+00</p>
+     <p key="label" >Output 1</p>
+     <p key="start" >(1.800000000000e+01,-7.200000000000e+01)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="265" role="0,terminal" id="electronics_terminal149" >
+     <p key="pos" >(4.000000000000e+01,-8.800000000000e+01)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="label" >Output 0</p>
+     <p key="start" >(1.800000000000e+01,-8.800000000000e+01)</p>
+    </pad>
+   </part>
+   <link end-pad="../part[@id='IC6']/pad[@pid='254']" class="electronics/link" start-pad="../part[@id='IC6']/pad[@pid='261']" id="LINK81" >
+    <p key="pos" >(6.480000000000e+02,1.048000000000e+03)</p>
+    <p key="path" >(0,0),(8,0),(8,88),(112,88),(112,80)</p>
+    <p key="path-length" >2.080000000000e+02</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <p key="i-path-dependent" />
+    <p key="v" />
+   </link>
+   <link end-pad="../part[@id='IC6']/pad[@pid='262']" class="electronics/link" start-pad="../part[@id='S1']/pad[@pid='184']" id="LINK80" >
+    <p key="pos" >(6.560004444444e+02,1.040000000000e+03)</p>
+    <p key="path" >(0,0),(-24,0),(-24,8)</p>
+    <p key="path-length" >3.200000000000e+01</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <p key="i-path-dependent" />
+    <p key="v" />
+   </link>
+   <link end-pad="../part[@id='IC6']/pad[@pid='252']" class="electronics/link" start-pad="../part[@id='Clock1']/pad[@pid='251']" id="LINK82" >
+    <p key="pos" >(5.840000000000e+02,1.128000000000e+03)</p>
+    <p key="path" >(0,0),(0,0)</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <p key="i-path-dependent" />
+    <p key="v" />
+   </link>
+   <part class="electronics/7408" id="IC4b" >
+    <p key="pos" >(7.120000000000e+02,9.920000000000e+02)</p>
+    <p key="orientation" >-1.570796326795e+00</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <pad class="electronics/terminal" pid="268" role="t1,terminal" id="electronics_terminal150" >
+     <p key="pos" >(-3.200000000000e+01,-8.000000000000e+00)</p>
+     <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="i-abs" />
+     <p key="v" >5.000000000000e+00</p>
+     <p key="start" >(-1.000000000000e+01,-8.000000000000e+00)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="269" role="t2,terminal" id="electronics_terminal151" >
+     <p key="pos" >(-3.200000000000e+01,8.000000000000e+00)</p>
+     <p key="orientation" >3.141592653590e+00</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.200000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="start" >(-1.000000000000e+01,8.000000000000e+00)</p>
+    </pad>
+    <pad class="electronics/terminal" pid="270" role="t3,terminal" id="electronics_terminal152" >
+     <p key="pos" >(3.200000000000e+01,0.000000000000e+00)</p>
+     <p key="can-link" >true</p>
+     <p key="pad-length" >2.600000000000e+01</p>
+     <p key="id" type="string" >
+      <validator label="string-validator" >
+       <v type="string" >[a-zA-Z0-9_\- /]+</v>
+      </validator>
+     </p>
+     <p key="start" >(6.000000000000e+00,0.000000000000e+00)</p>
+    </pad>
+   </part>
+   <link end-pad="../part[@id='IC4b']/pad[@pid='269']" class="electronics/link" start-pad="../part[@id='S1']/pad[@pid='184']" id="LINK83" >
+    <p key="pos" >(6.560004444444e+02,1.040000000000e+03)</p>
+    <p key="path" >(0,0),(64,0),(64,-16)</p>
+    <p key="path-length" >8.000000000000e+01</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <p key="i-path-dependent" />
+    <p key="v" />
+   </link>
+   <link end-pad="../part[@id='IC4b']/pad[@pid='268']" class="electronics/link" start-pad="../part[@id='IC2']/pad[@pid='88']" id="LINK84" >
+    <p key="pos" >(6.560004444444e+02,8.800000000000e+02)</p>
+    <p key="path" >(0,0),(-24,0),(-24,88),(32,88),(32,144),(48,144)</p>
+    <p key="path-length" >2.400000000000e+02</p>
+    <p key="id" type="string" >
+     <validator label="string-validator" >
+      <v type="string" >[a-zA-Z0-9_\- /]+</v>
+     </validator>
+    </p>
+    <p key="i-path-dependent" />
+    <p key="v" />
+   </link>
    <p class="electronics/*" key="meta-controlpane" >
     <v type="string" >electronics/ui/scene-visual</v>
     <v type="string" >electronics/ui/scene-simulation</v>
